@@ -1,0 +1,235 @@
+:root {
+    --white : #fff;
+    --black : #000;
+    --gray : 7e7e7e;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: var(--black);
+    font-family: 'Inknut Antiqua', serif;
+    padding-bottom: 2rem;
+}
+
+.Header, .Landing, .Selected, .Profile, .ContentForm, .Footer {
+    padding-left: 128px;
+    padding-right: 128px;
+    color: var(--white);
+}
+
+.Header {
+    padding-top: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headerButton, .languageButton {
+    font-family: 'Inknut Antiqua', serif;
+    cursor: pointer;
+    background: none;
+    border: none;
+    color: var(--white);
+}
+
+.Landing {
+    color: var(--white);
+    background-image: url("../assets/animation.gif");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 42%;
+    height: 70vh;
+}
+
+.Name {
+    font-size: 96px;
+    font-weight: bold;
+    margin-top: 4rem;
+    margin-bottom: 0;
+}
+
+.Description {
+    font-size: 24px;
+    margin: 0;
+}
+
+.Works {
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+}
+
+.SelectedWork {
+    font-size: 64px;
+    margin-bottom: 0;
+    background-image: url("../assets/text_bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: 30%;
+    background-position: 63rem;
+    font-weight: bold;
+}
+
+.SelectedCard {
+    width: 600px;
+    height: 650px;
+}
+
+.SelectedCardSecond {
+    width: 850px;
+    height: 650px;
+}
+
+.DescriptionCard {
+    font-size: 24px;
+    background-image: url("../assets/bg_text2.jpg");
+    background-repeat: no-repeat;
+    background-size: 35%;
+    background-position: right -8rem;
+    padding-bottom: 15rem;
+}
+
+.Profile {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 16rem;
+    padding-bottom: 10rem;
+}
+
+.flowers {
+    position: absolute;
+    left: 4.2rem;
+    top: 138rem;
+}
+
+.avatar {
+    background-image: url("../assets/reg_avatar.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 4rem;
+    margin-top: 4.5rem;
+    
+}
+
+.ProfileInfo {
+    padding-bottom: 10rem;
+}
+
+.h1Profile {
+    font-size: 58px;
+    font-weight: bold;
+    margin-bottom: 0;
+    margin-top: 5rem;
+}
+
+.DescriptionProfile {
+    font-size: 18px;
+    margin: 0;
+}
+
+.forButton {
+    margin-top: 2rem;
+    margin-bottom: 2.8rem;
+    font-size: 20px;
+}
+
+.ButtonClass {
+    display: flex;
+    flex-direction: row;
+    gap: 5rem;
+}
+
+.buttonProfile, .buttonForm {
+    border: 2px solid var(--white);
+    font-family: 'Inknut Antiqua', serif;
+    border-radius: 0.7rem;
+    font-weight: light;
+    font-size: 20px;
+    background-color: var(--black);
+    color: var(--white);
+    padding: 0.5rem 2.5rem;
+    cursor: pointer;
+    transition: 0.4s ease-in-out all;
+}
+
+.buttonProfile:hover, .buttonForm:hover {
+    background-color: var(--white);
+    color: var(--black);
+}
+
+.ContentForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 18rem;
+}
+
+.bgLetter {
+    width: 30rem;
+    height: 30rem;
+}
+
+.Form {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    width: 25rem;
+}
+
+.FormTitle {
+    font-size: 48px;
+    font-weight: bold;
+}
+
+.FormInput, .FormInputMessage {
+    background-color: black;
+    border: none;
+    padding-bottom: 0.1rem;
+    border-bottom: 2px solid var(--white);
+    font-size: 20px;
+    font-weight: light;
+    color: var(--gray);
+    font-family: 'Inknut Antiqua', serif;
+    outline: none;
+}
+
+.FormInputMessage {
+    padding-bottom: 2.5rem;
+}
+
+.buttonForm {
+    margin-top: 3rem;
+}
+
+.Footer {
+    color: var(--white);
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-end;
+    align-items: center;
+    gap: 1.5rem;
+    height: 4rem;
+}
+
+.FooterTitle {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    padding: 0;
+}
+
+.SocialButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+}
+
+.SocialButton {
+    border: none;
+    background: none;
+    cursor: pointer;
+    margin: 0;
+    padding: 0;
+}
