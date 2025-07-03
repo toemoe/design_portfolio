@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/design_portfolio/static/css/main.ae3c652a.css",
+    "main.js": "/design_portfolio/static/js/main.f11eec5f.js",
+    "static/js/453.96453769.chunk.js": "/design_portfolio/static/js/453.96453769.chunk.js",
+    "static/media/clothes_second.png": "/design_portfolio/static/media/clothes_second.4b90a21a60818302dba8.png",
+    "static/media/avatar.svg": "/design_portfolio/static/media/avatar.4e7120b8831f1cd70a81e1da78eb13e3.svg",
+    "static/media/selected_clothes.png": "/design_portfolio/static/media/selected_clothes.f48610793474ab9b24ef.png",
+    "static/media/flowers.svg": "/design_portfolio/static/media/flowers.60d84dca6f60f625ac181d9a072e8037.svg",
+    "static/media/animation.gif": "/design_portfolio/static/media/animation.cc5c71d6e82ea7093efa.gif",
+    "static/media/bg_text.jpg": "/design_portfolio/static/media/bg_text.0360f443da56ec36338c.jpg",
+    "static/media/bg_text2.jpg": "/design_portfolio/static/media/bg_text2.68954fa41adbadfe7717.jpg",
+    "static/media/text_bg1.jpg": "/design_portfolio/static/media/text_bg1.21e03df6fe93b5eabd25.jpg",
+    "static/media/instagram.svg": "/design_portfolio/static/media/instagram.be09b96fca936adaa8b77a0af68404dc.svg",
+    "index.html": "/design_portfolio/index.html",
+    "static/media/telegram.svg": "/design_portfolio/static/media/telegram.2b9aeae7cb6ec2a7c83db76e4e295afe.svg",
+    "static/media/reg_avatar.svg": "/design_portfolio/static/media/reg_avatar.1075fbf07c094e6edcd6.svg",
+    "main.ae3c652a.css.map": "/design_portfolio/static/css/main.ae3c652a.css.map",
+    "main.f11eec5f.js.map": "/design_portfolio/static/js/main.f11eec5f.js.map",
+    "453.96453769.chunk.js.map": "/design_portfolio/static/js/453.96453769.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ae3c652a.css",
+    "static/js/main.f11eec5f.js"
+  ]
+}
