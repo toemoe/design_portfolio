@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/design_portfolio/static/css/main.ae3c652a.css",
-    "main.js": "/design_portfolio/static/js/main.f11eec5f.js",
+    "main.css": "/design_portfolio/static/css/main.4ad1c82f.css",
+    "main.js": "/design_portfolio/static/js/main.f7626bc1.js",
     "static/js/453.96453769.chunk.js": "/design_portfolio/static/js/453.96453769.chunk.js",
     "static/media/clothes_second.png": "/design_portfolio/static/media/clothes_second.4b90a21a60818302dba8.png",
     "static/media/avatar.svg": "/design_portfolio/static/media/avatar.4e7120b8831f1cd70a81e1da78eb13e3.svg",
@@ -15,12 +15,12 @@
     "index.html": "/design_portfolio/index.html",
     "static/media/telegram.svg": "/design_portfolio/static/media/telegram.2b9aeae7cb6ec2a7c83db76e4e295afe.svg",
     "static/media/reg_avatar.svg": "/design_portfolio/static/media/reg_avatar.1075fbf07c094e6edcd6.svg",
-    "main.ae3c652a.css.map": "/design_portfolio/static/css/main.ae3c652a.css.map",
-    "main.f11eec5f.js.map": "/design_portfolio/static/js/main.f11eec5f.js.map",
+    "main.4ad1c82f.css.map": "/design_portfolio/static/css/main.4ad1c82f.css.map",
+    "main.f7626bc1.js.map": "/design_portfolio/static/js/main.f7626bc1.js.map",
     "453.96453769.chunk.js.map": "/design_portfolio/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.ae3c652a.css",
-    "static/js/main.f11eec5f.js"
+    "static/css/main.4ad1c82f.css",
+    "static/js/main.f7626bc1.js"
   ]
 }
