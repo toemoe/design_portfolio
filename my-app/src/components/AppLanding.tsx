@@ -6,7 +6,7 @@ export default function AppLanding() {
             <h1 className='Name'>Sergei Zan</h1>
             <p className='Description'>
                 I am currently actively pursuing
-                my<br/> career as a programmer and designer.  
+                my career as a programmer and designer.  
             </p>
         </div>
     );
