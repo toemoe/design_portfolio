@@ -10,11 +10,12 @@ body {
     background-color: var(--black);
     font-family: 'Inknut Antiqua', serif;
     padding-bottom: 2rem;
+    overflow-x:hidden;  /*для горизонтального*/
 }
 
 .Header, .Landing, .Selected, .Profile, .ContentForm, .Footer {
-    padding-left: 128px;
-    padding-right: 128px;
+    padding-left: 80px;
+    padding-right: 80px;
     color: var(--white);
 }
 
@@ -81,7 +82,7 @@ body {
 }
 
 .SelectedCardSecond {
-    width: 850px;
+    width: 900px;
     height: 650px;
 }
 
@@ -290,6 +291,11 @@ body {
 }
 
 @media only screen and (max-width: 500px) {
+
+    body {
+        overflow-x:hidden;  /*для вертикального*/
+    }
+
     .Landing {
         background-image: none;
         background-image: url("../assets/text_bg1.jpg");
