@@ -1,6 +1,5 @@
 import "../styles/App.css";
 import avatar from "../assets/avatar.svg"
-import flowers from "../assets/flowers.svg"
 
 export default function AppProfile() {
     const handleClickGitHub = function() {
@@ -13,7 +12,6 @@ export default function AppProfile() {
 
     return (
         <div className="Profile">
-            <img src={flowers} className="flowers" alt="flowers" />
             <img src={avatar} className="avatar" alt="avatar" />
             <div className="profileInfo">
                 <h1 className="h1Profile">Who I am?</h1>

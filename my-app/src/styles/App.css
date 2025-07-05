@@ -13,7 +13,7 @@ body {
     overflow-x:hidden;  /*для горизонтального*/
 }
 
-.Header, .Landing, .Selected, .Profile, .ContentForm, .Footer {
+.Header, .Landing, .Selected, .ContentForm, .Footer {
     padding-left: 80px;
     padding-right: 80px;
     color: var(--white);
@@ -101,24 +101,12 @@ body {
     justify-content: center;
     gap: 16rem;
     padding-bottom: 10rem;
-}
-
-.flowers {
-    position: absolute;
-    left: 4.2rem;
-    top: 138rem;
+    padding-right: 8rem;
+    color: var(--white);
 }
 
 .avatar {
-    background-image: url("../assets/reg_avatar.svg");
-    background-repeat: no-repeat;
-    background-position: center;
-    padding: 4rem;
-    margin-top: 4.5rem;
-}
-
-.ProfileInfo {
-    padding-bottom: 10rem;
+    margin-top: 7rem;
 }
 
 .h1Profile {
@@ -350,23 +338,15 @@ body {
         justify-content: center;
         align-items: center;
         text-align: center;
-    }
-
-    .flowers {
-        position: absolute;
-        left: -3rem;
-        top: 150rem;
-        width: 80%;
+        gap: 4rem;
     }
 
     .avatar {
-        background-image: url("../assets/reg_avatar.svg");
-        background-repeat: no-repeat;
-        background-position: center;
-        width: 18rem;
-        background-size: 84%;
+        width: 25rem;
         margin: 0;
+        padding: 0;
         margin-top: 5rem;
+        margin-right: 6rem;
     }
 
     .ProfileInfo {
