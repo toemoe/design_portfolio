@@ -1,11 +1,13 @@
 {
   "files": {
-    "main.css": "/design_portfolio/static/css/main.d9335376.css",
-    "main.js": "/design_portfolio/static/js/main.d4c6d186.js",
+    "main.css": "/design_portfolio/static/css/main.2b8c6edd.css",
+    "main.js": "/design_portfolio/static/js/main.da5f3449.js",
     "static/js/453.96453769.chunk.js": "/design_portfolio/static/js/453.96453769.chunk.js",
-    "static/media/clothes_second.png": "/design_portfolio/static/media/clothes_second.4b90a21a60818302dba8.png",
+    "static/media/Fourth.png": "/design_portfolio/static/media/Fourth.383bdf69204c016f3551.png",
     "static/media/avatar.svg": "/design_portfolio/static/media/avatar.31eb59cba998393ba659e59887a59c93.svg",
-    "static/media/selected_clothes.png": "/design_portfolio/static/media/selected_clothes.f48610793474ab9b24ef.png",
+    "static/media/Third.png": "/design_portfolio/static/media/Third.07a0c7d6edcbbd42caec.png",
+    "static/media/clothes_second.png": "/design_portfolio/static/media/clothes_second.d6eba891395124330e1d.png",
+    "static/media/selected_clothes.png": "/design_portfolio/static/media/selected_clothes.af4550d12ad3251e9239.png",
     "static/media/animation.gif": "/design_portfolio/static/media/animation.cc5c71d6e82ea7093efa.gif",
     "static/media/bg_text.jpg": "/design_portfolio/static/media/bg_text.0360f443da56ec36338c.jpg",
     "static/media/bg_text2.jpg": "/design_portfolio/static/media/bg_text2.68954fa41adbadfe7717.jpg",
@@ -13,12 +15,12 @@
     "static/media/instagram.svg": "/design_portfolio/static/media/instagram.be09b96fca936adaa8b77a0af68404dc.svg",
     "index.html": "/design_portfolio/index.html",
     "static/media/telegram.svg": "/design_portfolio/static/media/telegram.2b9aeae7cb6ec2a7c83db76e4e295afe.svg",
-    "main.d9335376.css.map": "/design_portfolio/static/css/main.d9335376.css.map",
-    "main.d4c6d186.js.map": "/design_portfolio/static/js/main.d4c6d186.js.map",
+    "main.2b8c6edd.css.map": "/design_portfolio/static/css/main.2b8c6edd.css.map",
+    "main.da5f3449.js.map": "/design_portfolio/static/js/main.da5f3449.js.map",
     "453.96453769.chunk.js.map": "/design_portfolio/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d9335376.css",
-    "static/js/main.d4c6d186.js"
+    "static/css/main.2b8c6edd.css",
+    "static/js/main.da5f3449.js"
   ]
 }
