@@ -82,7 +82,7 @@ body {
     text-align: center;
     box-sizing: border-box; /* Учитываем отступы и границы в общей ширине */
     border: 2px solid var(--gray);
-    @media screen and (max-width: 650px) {
+    @media screen and (max-width: 700px) {
         width: 25rem;
     }
 }
@@ -108,19 +108,9 @@ body {
 
 .textImage1 {
     width: 22rem;
-    @media (max-width: 650px) {
+    @media (max-width: 700px) {
         display: none;
     }
-}
-
-.SelectedCard {
-    width: 600px;
-    height: 650px;
-}
-
-.SelectedCardSecond {
-    width: 900px;
-    height: 650px;
 }
 
 .DescriptionCard {
@@ -315,7 +305,7 @@ body {
     color: var(--white);
 }
 
-@media only screen and (max-width: 650px) {
+@media only screen and (max-width: 700px) {
 
     body {
         overflow-x:hidden;  /*для вертикального*/
@@ -355,11 +345,6 @@ body {
         flex-direction: column;
     }
 
-    .SelectedCard, .SelectedCardSecond {
-        width: 100%;
-        height: 100%;
-    }
-
     .DescriptionCard {
         background-image: url("../assets/bg_text2.jpg");
         background-repeat: no-repeat;
@@ -397,6 +382,13 @@ body {
         font-size: 32px;
     }
 
+    .bgLetter {
+        width: 100%;
+        height: 100%;
+        margin: 0;
+        padding: 0;
+    }
+
     .DescriptionProfile {
         font-size: 18px;
         display: flex;
@@ -424,7 +416,7 @@ body {
     }
 
     .Form {
-        width: 24rem;
+        width: 100%;
     }
 
     .buttonForm {
