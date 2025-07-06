@@ -1,10 +1,7 @@
 import './styles/App.css';
-import AppHeader from './components/AppHeader';
-import AppLanding from './components/AppLanding';
-import AppSelected from './components/AppSelected';
-import AppProfile from './components/AppProfile';
-import AppForm from './components/AppForm';
-import AppFooter from './components/AppFooter';
+import AppHeader from './components/layouts/AppHeader';
+import AppLanding from './components/layouts/AppLanding';
+import AppFooter from './components/layouts/AppFooter';
 
 
 export default function App() {
@@ -12,9 +9,6 @@ export default function App() {
     <>
     <AppHeader />
     <AppLanding />
-    <AppSelected />
-    <AppProfile />
-    <AppForm />
     <AppFooter />
     </>
   );

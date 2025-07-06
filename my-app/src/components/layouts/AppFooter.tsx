@@ -1,6 +1,6 @@
-import "../styles/App.css";
-import SocialInst from "../assets/instagram.svg";
-import SocialTg from "../assets/telegram.svg";
+import "../../styles/App.css";
+import SocialInst from "../../assets/instagram.svg";
+import SocialTg from "../../assets/telegram.svg";
 
 export default function AppFooter() {
     const handleClickInst = function() {

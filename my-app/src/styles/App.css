@@ -10,13 +10,13 @@ body {
     background-color: var(--black);
     font-family: 'Inknut Antiqua', serif;
     padding-bottom: 2rem;
-    overflow-x:hidden;  /*для горизонтального*/
+    overflow-x:hidden;
 }
 
-.Header, .Landing, .Selected, .ContentForm, .Footer {
+.Landing, .Selected, .ContentForm, .Footer {
+    color: var(--white);
     padding-left: 80px;
     padding-right: 80px;
-    color: var(--white);
 }
 
 .Header {
@@ -29,6 +29,8 @@ body {
     background-color: var(--gray);
     opacity: 0.8;
     color: var(--white);
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .headerButton, .languageButton {
@@ -66,14 +68,49 @@ body {
     gap: 2rem;
 }
 
+.scrollContainer {
+    width: 100%;
+    overflow-x: auto; /* Включаем горизонтальный скролл */
+    white-space: nowrap; /* Запрещаем перенос элементов на новую строку */
+    padding: 10px 0;
+}
+
+.workItem {
+    display: inline-block;
+    width: 35rem;
+    margin: 10px;
+    text-align: center;
+    box-sizing: border-box; /* Учитываем отступы и границы в общей ширине */
+    border: 2px solid var(--gray);
+    @media screen and (max-width: 650px) {
+        width: 25rem;
+    }
+}
+
+.imageWork {
+    width: 100%; /* Изображение занимает всю ширину контейнера */
+    height: 30rem;
+    object-fit: cover; /* Сохраняем пропорции изображения */
+}
+
+
+.h2_imageForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
 .SelectedWork {
-    font-size: 64px;
+    font-size: clamp(2.5rem, 5vw, 4rem);
     margin-bottom: 0;
-    background-image: url("../assets/text_bg1.jpg");
-    background-repeat: no-repeat;
-    background-size: 30%;
-    background-position: 63rem;
     font-weight: bold;
+}
+
+.textImage1 {
+    width: 22rem;
+    @media (max-width: 650px) {
+        display: none;
+    }
 }
 
 .SelectedCard {
@@ -278,7 +315,7 @@ body {
     color: var(--white);
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 650px) {
 
     body {
         overflow-x:hidden;  /*для вертикального*/
