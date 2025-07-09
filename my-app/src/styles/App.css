@@ -33,7 +33,13 @@ body {
     padding-right: 80px;
 }
 
-.headerButton, .languageButton {
+.SecondBlockButtons {
+    display: flex;
+    flex-direction: row;
+    gap: 16rem;
+}
+
+.Header button {
     font-family: 'Inknut Antiqua', serif;
     cursor: pointer;
     background: none;

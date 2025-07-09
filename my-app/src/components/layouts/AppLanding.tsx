@@ -7,6 +7,11 @@ import AppModal from "../AppModal";
 import ScrollApp from '../FeaturedWorks';
 
 
+export const scrollToElement = (elementId: string) => {
+    const elem = document.getElementById(elementId);
+    elem?.scrollIntoView({ behavior: 'smooth' });
+};
+
 export default function AppLanding() {
     const [name, SetName] = useState('');
     const [email, SetEmail] = useState('');
@@ -57,14 +62,14 @@ export default function AppLanding() {
 
     return (
         <>
-        <div className='Landing'>
+        <div className='Landing' id='top'>
             <h1 className='Name'>Sergei Zan</h1>
             <p className='Description'>
                 I am currently actively pursuing
                 my career as a programmer and designer.  
             </p>
         </div>
-        <div className="Selected">
+        <div className="Selected" id='selected'>
             <div className="h2_imageForm">
                 <h2 className="SelectedWork">Selected Work</h2>
                 <img src={textImage1} alt="textImage1" className="textImage1"/>
@@ -72,7 +77,7 @@ export default function AppLanding() {
             <ScrollApp />
             <p className='DescriptionCard'>My clothing website design projects.</p>
         </div>
-        <div className="Profile">
+        <div className="Profile" id="aboutMe">
             <img src={avatar} className="avatar" alt="avatar" />
             <div className="profileInfo">
                 <h1 className="h1Profile">Who I am?</h1>
@@ -92,7 +97,7 @@ export default function AppLanding() {
                 </div>
             </div>
         </div>
-        <div className="ContentForm">
+        <div className="ContentForm" id='contact'>
             <div className="withoutBtn">
                 <div className="Form" onSubmit={handleSubmit}>
                     <h2 className="FormTitle">Get in Touch</h2>
