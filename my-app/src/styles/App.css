@@ -53,10 +53,10 @@ body {
 
 .Landing {
     color: var(--white);
-    background-image: url("../assets/animation.gif");
+    background-image: url("../assets/animation2.gif");
     background-repeat: no-repeat;
     background-position: right;
-    background-size: 42%;
+    background-size: 39%;
     height: 80vh;
 }
 
