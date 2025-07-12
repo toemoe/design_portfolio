@@ -12,10 +12,12 @@ On my website, you can find a selection of my clothing website design projects. 
 
 ## Skills
 
-**-****Languages:****** JavaScript, TypeScript, HTML, CSS, SQL
-**-****Frameworks/Libraries:****** React
+******Languages:****** JavaScript, TypeScript, HTML, CSS, SQL
 
-**##** How to Reach Me
+******Frameworks/Libraries:****** React
+
+## How to Reach Me
 
 **-****GitHub:******[**toemoe**](**https://github.com/toemoe**)
+
 **-****Behance:******[**toemoe**](**https://www.behance.net/toemoe**)
