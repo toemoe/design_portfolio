@@ -345,13 +345,13 @@ body {
     }
 
     .Header, .Landing, .Selected, .Profile, .ContentForm, .Footer {
-        padding-left: 40px;
-        padding-right: 40px;
+        padding-left: 20px;
+        padding-right: 20px;
         color: var(--white);
     }
 
     .Header button {
-        font-size: 0.73rem;
+        font-size: 0.6rem;
     }
 
     .Works {
