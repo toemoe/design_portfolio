@@ -4,6 +4,7 @@ import selectedClothes from '../assets/selected_clothes.png';
 import clothesSecond from '../assets/clothes_second.png';
 import clothesThird from '../assets/Third.png';
 import clothesFourth from '../assets/Fourth.png';
+import coffeeShop from '../assets/coffeeShop.png';
 
 interface FeaturedWorksProps {
     imageUrl: string;
@@ -21,11 +22,11 @@ const WorkItem: React.FC<FeaturedWorksProps> = ({ imageUrl, title }) => {
 
 const ScrollApp: React.FC = () => {
     const works = [
-        { imageUrl: selectedClothes, title: "Selected Clothes" },
-        { imageUrl: clothesSecond, title: "Selected Second" },
-        { imageUrl: clothesThird, title: "Selected Third" },
-        { imageUrl: clothesFourth, title: "Selected Fourth" },
-
+        { imageUrl: selectedClothes, title: "Avantgarde Clothes" },
+        { imageUrl: clothesSecond, title: "Clothes Design" },
+        { imageUrl: coffeeShop, title: "Coffee Shop" },
+        { imageUrl: clothesThird, title: "Clothes Shop v1" },
+        { imageUrl: clothesFourth, title: "Clothes Shop v1" },
     ];
 
     return (
