@@ -318,10 +318,32 @@ body {
     color: var(--white);
 }
 
+.ModalOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.9);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modalImage {
+    position: relative;
+    width: 50%;
+    height: 85vh;
+
+    display: block;
+    margin: 0 auto;
+  }
+
 @media only screen and (max-width: 700px) {
 
     body {
-        overflow-x:hidden;  /*для вертикального*/
+        overflow-x: hidden;
     }
 
     .Landing {
@@ -448,5 +470,10 @@ body {
     .Footer {
         display: flex;
         justify-content: center;
+    }
+
+    .modalImage {
+        width: 75%;
+        height: 40%;
     }
 }
