@@ -39,7 +39,7 @@ body {
     flex-direction: row;
     gap: 16rem;
     @media (max-width: 768px) {
-        gap: 1rem;
+        display: none;
     }
         
 }
@@ -351,6 +351,15 @@ body {
     border-radius: 0.5rem;
 }
   
+.buttonMobile {
+    display: none;
+}
+
+@media (min-width: 769px) {
+    .expandedMenu {
+        display: none;
+    }
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -488,4 +497,47 @@ body {
         width: 75%;
         height: 40%;
     }
+
+    .buttonMobile {
+        display: block;
+        cursor: pointer;
+    }
+
+    .expandedMenu {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        width: 100%;
+        background: var(--gray);
+        display: flex;
+        flex-direction: column;
+        gap: 8px;
+        padding: 1rem;
+        transform: translateY(-20px);
+        opacity: 0;
+        pointer-events: none;
+        transition: all 0.3s ease;
+        z-index: 1000;
+    }
+    
+    .expandedMenu.expanded {
+        transform: translateY(0);
+        opacity: 1;
+        pointer-events: auto;
+    }
+
+    .SelectedHeaderM, .ProfileHeaderM, .ContactHeaderM {
+        text-align: left;
+        background: none;
+        border: none;
+        cursor: pointer;
+        padding-left: 10px;
+    }
+
+    .buttonMobile {
+        display: block;
+        cursor: pointer;
+        z-index: 1001;
+    }
+    
 }

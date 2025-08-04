@@ -1,6 +1,5 @@
 import '../../styles/App.css';
 import avatar from "../../assets/avatar.svg"
-import letter from "../../assets/bg_text.jpg";
 import React, { useState } from "react";
 import AppModal from "../AppModal";
 import ScrollApp from '../FeaturedWorks';
@@ -86,7 +85,6 @@ export default function AppLanding() {
                 I participate in the educational project<br/>
                 School 21 from Sberbank.
                 </p>
-
                 <p className="forButton">More of my work:</p>
                 <div className="ButtonClass">
                     <button className="buttonProfile" onClick={handleClickGitHub}>GitHub</button>
