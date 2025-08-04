@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/design_portfolio/static/css/main.4caeb934.css",
-    "main.js": "/design_portfolio/static/js/main.ae1a22b2.js",
+    "main.css": "/design_portfolio/static/css/main.6ebcddf0.css",
+    "main.js": "/design_portfolio/static/js/main.75250d20.js",
     "static/js/453.96453769.chunk.js": "/design_portfolio/static/js/453.96453769.chunk.js",
     "static/media/Fourth.png": "/design_portfolio/static/media/Fourth.383bdf69204c016f3551.png",
     "static/media/avatar.svg": "/design_portfolio/static/media/avatar.31eb59cba998393ba659e59887a59c93.svg",
@@ -15,12 +15,13 @@
     "static/media/instagram.svg": "/design_portfolio/static/media/instagram.be09b96fca936adaa8b77a0af68404dc.svg",
     "index.html": "/design_portfolio/index.html",
     "static/media/telegram.svg": "/design_portfolio/static/media/telegram.2b9aeae7cb6ec2a7c83db76e4e295afe.svg",
-    "main.4caeb934.css.map": "/design_portfolio/static/css/main.4caeb934.css.map",
-    "main.ae1a22b2.js.map": "/design_portfolio/static/js/main.ae1a22b2.js.map",
+    "static/media/buttonMobile.svg": "/design_portfolio/static/media/buttonMobile.369370c40202b98f7ea1ba2cb5b455b3.svg",
+    "main.6ebcddf0.css.map": "/design_portfolio/static/css/main.6ebcddf0.css.map",
+    "main.75250d20.js.map": "/design_portfolio/static/js/main.75250d20.js.map",
     "453.96453769.chunk.js.map": "/design_portfolio/static/js/453.96453769.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4caeb934.css",
-    "static/js/main.ae1a22b2.js"
+    "static/css/main.6ebcddf0.css",
+    "static/js/main.75250d20.js"
   ]
 }
