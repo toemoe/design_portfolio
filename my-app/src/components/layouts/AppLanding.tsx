@@ -1,7 +1,6 @@
 import '../../styles/App.css';
 import avatar from "../../assets/avatar.svg"
 import letter from "../../assets/bg_text.jpg";
-import textImage1 from "../../assets/text_bg1.jpg";
 import React, { useState } from "react";
 import AppModal from "../AppModal";
 import ScrollApp from '../FeaturedWorks';
@@ -72,20 +71,18 @@ export default function AppLanding() {
         <div className="Selected" id='selected'>
             <div className="h2_imageForm">
                 <h2 className="SelectedWork">Selected Work</h2>
-                <img src={textImage1} alt="textImage1" className="textImage1"/>
             </div>
             <ScrollApp />
-            <p className='DescriptionCard'>My clothing website design projects.</p>
+            <p className='DescriptionCard'>List of my web design projects.</p>
         </div>
         <div className="Profile" id="aboutMe">
             <img src={avatar} className="avatar" alt="avatar" />
             <div className="profileInfo">
                 <h1 className="h1Profile">Who I am?</h1>
                 <p className="DescriptionProfile">
-                I am web designer, front-end developer.<br/>
-                I have experience working with JavaScript,<br/>
-                CSS/HTML, and SQL databases. I am also<br/>
-                know React and TypeScript.<br/>
+                I am web designer, front-end developer from Moscow<br/>
+                I have experience working with TypeScript,<br/>
+                CSS/SCSS, HTML.<br/>
                 I participate in the educational project<br/>
                 School 21 from Sberbank.
                 </p>
@@ -98,18 +95,20 @@ export default function AppLanding() {
             </div>
         </div>
         <div className="ContentForm" id='contact'>
-            <div className="withoutBtn">
                 <div className="Form" onSubmit={handleSubmit}>
+                    <div className='descriptionForm'>
                     <h2 className="FormTitle">Get in Touch</h2>
-                    <input className="FormInput" type="text" placeholder="Name" value={name} onChange={(e) => SetName(e.target.value)} />
-                    {nameError && <p style={{ color: 'white', margin: '0rem' }} className="emailError">{nameError}</p>}
-                    <input className="FormInput" type="text" placeholder="Email" value={email} onChange={(e) => SetEmail(e.target.value)} />
-                    {emailError && <p style={{ color: 'white', margin: '0rem' }} className="emailError">{emailError}</p>}
-                    <input className="FormInputMessage" type="text" placeholder="How can i help?" />
+                    <p>Currently, I am open to work in the field of web design, frontend development.</p>
+                    </div>
+                    <div className='inputFormContainer'>
+                        <input className="FormInput" type="text" placeholder="Name" value={name} onChange={(e) => SetName(e.target.value)} />
+                        {nameError && <p style={{ color: 'white', margin: '0rem' }} className="emailError">{nameError}</p>}
+                        <input className="FormInput" type="text" placeholder="Email" value={email} onChange={(e) => SetEmail(e.target.value)} />
+                        {emailError && <p style={{ color: 'white', margin: '0rem' }} className="emailError">{emailError}</p>}
+                        <input className="FormInputMessage" type="text" placeholder="How can i help?" />
+                        <button className="buttonForm" onClick={handleSubmit}>submit</button>
+                    </div>
                 </div>
-                <button className="buttonForm" onClick={handleSubmit}>submit</button>
-            </div>
-            <img src={letter} alt="letter" className="bgLetter"/>
 
             {showModal && <AppModal onClose={closeModal} />}
         </div>

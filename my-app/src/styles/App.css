@@ -20,10 +20,9 @@ body {
 }
 
 .Header {
-    padding-top: 1rem;
     display: flex;
     justify-content: space-between;
-    align-items: center;
+    text-align: center;
     position: sticky;
     top: 0;
     background-color: var(--gray);
@@ -31,13 +30,15 @@ body {
     color: var(--white);
     padding-left: 80px;
     padding-right: 80px;
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
 }
 
 .SecondBlockButtons {
     display: flex;
     flex-direction: row;
     gap: 16rem;
-    @media (max-width: 700px) {
+    @media (max-width: 768px) {
         gap: 1rem;
     }
         
@@ -119,20 +120,13 @@ body {
     font-weight: bold;
 }
 
-.textImage1 {
-    width: 19rem;
-    @media (max-width: 700px) {
-        display: none;
-    }
-}
-
 .DescriptionCard {
     font-size: 24px;
     background-image: url("../assets/bg_text2.jpg");
     background-repeat: no-repeat;
-    background-size: 35%;
-    background-position: right -8rem;
-    padding-bottom: 15rem;
+    background-size: 25%;
+    background-position: right;
+    padding-bottom: 8rem;
 }
 
 .Profile {
@@ -140,7 +134,7 @@ body {
     flex-direction: row;
     justify-content: center;
     gap: 16rem;
-    padding-bottom: 10rem;
+    padding-bottom: 5rem;
     padding-right: 8rem;
     color: var(--white);
 }
@@ -196,24 +190,38 @@ body {
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    gap: 18rem;
-}
-
-.bgLetter {
-    width: 30rem;
-    height: 30rem;
+    padding-bottom: 5rem;
 }
 
 .Form {
     display: flex;
-    flex-direction: column;
-    gap: 1rem;
-    width: 30rem;
+    flex-direction: row;
+    gap: 8rem;
+    @media screen and (max-width: 768px) {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 4rem;
+    }
 }
 
 .FormTitle {
-    font-size: 48px;
+    font-size: 2.5rem;
     font-weight: bold;
+}
+
+.descriptionForm {
+    width: 22rem;
+}
+
+.inputFormContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    width: 25rem;
+    @media screen and (max-width: 768px) {
+        width: 100%;
+    }
 }
 
 .FormInput, .FormInputMessage {
@@ -221,7 +229,7 @@ body {
     border: none;
     padding-bottom: 0.1rem;
     border-bottom: 2px solid var(--white);
-    font-size: 20px;
+    font-size: 16px;
     font-weight: light;
     color: var(--white);
     font-family: 'Inknut Antiqua', serif;
@@ -354,7 +362,7 @@ body {
         background-image: none;
         background-image: url("../assets/text_bg1.jpg");
         background-size: 80%;
-        background-position: 5rem 20rem;
+        background-position: 3rem 20rem;
     }
 
     .Name {
