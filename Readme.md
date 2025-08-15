@@ -12,7 +12,7 @@ On my website, you can find a selection of my clothing website design projects. 
 
 ## Skills
 
-******Languages:****** JavaScript, TypeScript, HTML, CSS, SQL
+******Languages:****** JavaScript, TypeScript, HTML, CSS/SCSS, SQL
 
 ******Frameworks/Libraries:****** React
 
