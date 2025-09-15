@@ -1,6 +1,6 @@
-import SocialInst from "../assets/instagram.svg";
-import SocialTg from "../assets/telegram.svg";
-import { handleClickButton } from "../utils/openlinks.ts";
+import SocialInst from "../../../assets/instagram.svg";
+import SocialTg from "../../../assets/telegram.svg";
+import { handleClickButton } from "../../../utils/openlinks.ts";
 
 const SocialButtons = () => {
     return (

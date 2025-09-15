@@ -1,7 +1,7 @@
-import ContentForm from './ContentForm';
-import Profile from './Profile';
-import Selected from './Selected';
 import HomePage from './HomePage';
+import Selected from './Selected';
+import Profile from './Profile';
+import ContentForm from '../../../components/ContentForm/ContentForm';
 
 export default function AppLanding() {
     return (

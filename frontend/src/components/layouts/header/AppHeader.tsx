@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
-import '../../styles/App.css';
-import { scrollToElement } from '../../utils/scrollToElement';
-import buttonMobile from '../../assets/buttonMobile.svg';
+import { scrollToElement } from '../../../utils/scrollToElement';
+import buttonMobile from '../../../assets/buttonMobile.svg';
 
 const AppHeader: React.FC = () => {
     const [isExpanded, setIsExpanded] = useState(false);

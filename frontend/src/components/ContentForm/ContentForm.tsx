@@ -1,5 +1,5 @@
 import { useState } from "react";
-import AppModal from "../../AppModal";
+import AppModal from "./AppModal";
 
 const ContentForm = () => {
     const [name, SetName] = useState('');

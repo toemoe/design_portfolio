@@ -1,6 +1,6 @@
-import AppHeader from './components/layouts/AppHeader';
-import AppLanding from './components/layouts/Landing/AppLanding';
-import AppFooter from './components/layouts/AppFooter';
+import AppHeader from './components/layouts/header/AppHeader';
+import AppLanding from './components/layouts/landing/AppLanding';
+import AppFooter from './components/layouts/footer/AppFooter';
 
 function App() {
   return (
